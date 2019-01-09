@@ -1,7 +1,7 @@
 import { ExpressionDescriptor } from "./expressionDescriptor";
-import { enLocaleLoader } from "./i18n/enLocaleLoader";
+import { zh_CNLocaleLoader } from "./i18n/zh_CNLocaleLoader";
 
-ExpressionDescriptor.initialize(new enLocaleLoader());
+ExpressionDescriptor.initialize(new zh_CNLocaleLoader());
 export default ExpressionDescriptor;
 
 let toString = ExpressionDescriptor.toString;

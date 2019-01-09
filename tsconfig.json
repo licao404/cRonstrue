@@ -9,5 +9,5 @@
     "sourceMap": true,
     "declaration": true
   },
-  "files": ["src/cronstrue.ts", "src/cronstrue-i18n.ts", "src/cronstrue-zh_CN.ts"]
+  "files": ["src/cronstrue.ts", "src/cronstrue-i18n.ts"]
 }

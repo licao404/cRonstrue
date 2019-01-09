@@ -29,8 +29,7 @@
   "typings": "dist/cronstrue-zh_cn.d.ts",
   "files": [
     "dist/",
-    "i18n.js",
-    "zh_CN.js"
+    "i18n.js"
   ],
   "repository": {
     "type": "git",
