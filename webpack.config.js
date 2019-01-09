@@ -1,6 +1,7 @@
 var webpack = require("webpack");
 var libraryName = require("./package.json").name;
 var withLocalesSuffix = "-i18n";
+var withZhCNSuffix = "-zh_CN";
 
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
@@ -10,7 +11,9 @@ module.exports = {
     [libraryName]: "./src/cronstrue.ts",
     [libraryName + ".min"]: "./src/cronstrue.ts",
     [libraryName + withLocalesSuffix]: "./src/cronstrue-i18n.ts",
-    [libraryName + withLocalesSuffix + ".min"]: "./src/cronstrue-i18n.ts"
+    [libraryName + withLocalesSuffix + ".min"]: "./src/cronstrue-i18n.ts",
+    [libraryName + withZhCNSuffix]: "./src/cronstrue-zh_CN.ts",
+    [libraryName + withZhCNSuffix + ".min"]: "./src/cronstrue-zh_CN.ts",
   },
   output: {
     path: __dirname + "/dist",
