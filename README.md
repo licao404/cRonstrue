@@ -1,4 +1,4 @@
-# cRonstrue [![Build Status](https://travis-ci.org/bradymholt/cRonstrue.svg?branch=master)](https://travis-ci.org/bradymholt/cRonstrue) [![NPM Package](https://img.shields.io/npm/v/cronstrue.svg)](https://www.npmjs.com/package/cronstrue)
+# cRonstrue [![Build Status](https://travis-ci.org/bradymholt/cRonstrue.svg?branch=master)](https://travis-ci.org/bradymholt/cRonstrue) [![NPM Package](https://img.shields.io/npm/v/cronstrue.svg)](https://www.npmjs.com/package/cronstrue-zh_cn)
 
 cRonstrue is a JavaScript library that parses a cron expression and outputs a human readable description of the cron schedule.  For example, given the expression "*/5 * * * *" it will output "Every 5 minutes".
 
@@ -17,7 +17,7 @@ cRonstrue is exported as an [UMD](https://github.com/umdjs/umd) module so it wil
 First, install the module:
 
 ```
-npm install cronstrue
+npm i cronstrue-zh_cn
 ```
 
 Then, depending upon your usage context, add a reference to it:
@@ -25,20 +25,20 @@ Then, depending upon your usage context, add a reference to it:
 ### Node
 
 ```js
-var cronstrue = require('cronstrue');
+var cronstrue = require('cronstrue-zh_cn');
 ```
 
 ### ES6/TypeScript
 
 ```js
-import cronstrue from 'cronstrue';
+import cronstrue from 'cronstrue-zh_cn';
 ```
 
 ### Browser
- The `cronstrue.min.js` file from the `/dist` folder in the npm package should be served to the browser.  There are no dependencies so you can simply include the library in a `<script>` tag.
+ The `cronstrue-zh_cn.min.js` file from the `/dist` folder in the npm package should be served to the browser.  There are no dependencies so you can simply include the library in a `<script>` tag.
 
 ```html
-<script src="cronstrue.min.js" type="text/javascript"></script>
+<script src="cronstrue-zh_cn.min.js" type="text/javascript"></script>
 <script>
   var cronstrue = window.cronstrue;
 </script>
