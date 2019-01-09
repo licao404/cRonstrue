@@ -1,6 +1,6 @@
 {
-  "name": "cronstrue",
-  "title": "cRonstrue",
+  "name": "cronstrue-zh_cn",
+  "title": "cRonstrue-zh_CN",
   "version": "1.60.2",
   "description": "Convert cron expressions into human readable descriptions",
   "author": "Brady Holt",
