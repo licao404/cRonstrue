@@ -35,7 +35,7 @@ export class ExpressionDescriptor {
       verbose = false,
       dayOfWeekStartIndexZero = true,
       use24HourTimeFormat,
-      locale = "en"
+      locale = "zh_CN"
     }: Options = {}
   ): string {
     // We take advantage of Destructuring Object Parameters (and defaults) in TS/ES6 and now we will reassemble back to
@@ -70,7 +70,7 @@ export class ExpressionDescriptor {
     } else {
       // fall back to English
       console.warn(`Locale '${options.locale}' could not be found; falling back to 'en'.`);
-      this.i18n = ExpressionDescriptor.locales["en"];
+      this.i18n = ExpressionDescriptor.locales["zh_CN"];
     }
 
     if (options.use24HourTimeFormat === undefined) {
